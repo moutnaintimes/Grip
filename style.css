@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #fefefe;
+  color: #222;
+}
+
+a {
+  color: #007744;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.grip-landing-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.grip-intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.grip-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.grip-story-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  width: 300px;
+  padding: 15px;
+  transition: all 0.3s ease;
+}
+
+.grip-story-card:hover {
+  background: #e8f4ea;
+}
+
+.grip-thumb img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.grip-story-card h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.grip-story-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.story-wrapper {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
